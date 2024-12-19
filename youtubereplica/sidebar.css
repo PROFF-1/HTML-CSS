@@ -1,0 +1,98 @@
+.sidebar{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top:55px;
+  bottom: 0;
+  left:0;
+  width: 220px;
+  z-index: 200;
+  padding-left: 8px;
+
+}
+
+.Sidebar-tools{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 40px;
+  width:170px;
+  padding-left: 20px;
+
+}
+
+.Sidebar-tools-home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 40px;
+  width:170px;
+  padding-left: 20px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.Sidebar-tools-home:hover{
+  background-color: rgba(171, 171, 171, 0.3);
+
+}
+
+.Sidebar-tools-home img{
+  height: 25px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.Sidebar-tools img{
+  height: 25px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.Sidebar-tools div{
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+
+}
+
+.Sidebar-tools:hover{
+  background-color: rgba(171, 171, 171, 0.3);
+  border-radius: 10px;
+
+}
+
+.divider{
+border-bottom: 1px solid rgba(211, 210, 210, 0.5);
+ width: 225px;
+ padding-bottom: 15px;
+
+}
+.divider p{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: bold;
+
+}
+
+
+.divider-2{
+  border-bottom: 1px solid rgba(211, 210, 210, 0.5);
+  width: 225px;
+  padding-bottom: 15px;
+  padding-top:15px;
+
+}
+
+.sidebar:hover{
+overflow-y:scroll;
+overflow-x:hidden;
+}
+
